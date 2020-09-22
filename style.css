@@ -1,16 +1,82 @@
-/* Type your code here */
+* {
+	padding: 0% 0% 0% 2%;
+	margin: 0;
+}
 
+body {
+	font-family: "Nunito Sans";
+	background: white;
+	background-image: url(../lab-cricpro-scoreboard/assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	/* right: 20px; */
+}
 
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
+header {
+	display: flex;
+	justify-content: flex-end;
+	padding: 1% 4%;
+}
+
+h1 {
+	font-size: 3.5em;
+	font-weight: 600;
+
+}
+
+h3 {
+	font-size: 2em;
+	color: gray;
+}
+
+table {
+	width: 55%;
+	justify-content: center;
+	font-size: 1.5em;
+	padding: 5px;
+	background-color: white;
+}
+
+.table-container {
+	font-size: 0.5em;
+	display: flex;
+}
+
+td {
+	margin: 0px;
+	padding: 5px;
+	text-align: left;
+}
+
+#tr1 {
+	background-color: orangered;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 5px;
+	border: 0px solid #808080;
+	text-align: left;
+	font-size: 1.5em;
+}
+
+a {
+	color: blue;
+	font: 15px solid;
+	justify-content: left;
+}
+
+p {
+	font: 15px solid;
+	justify-content: left;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	top: 59px;
+	margin-left: 20px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
 }
